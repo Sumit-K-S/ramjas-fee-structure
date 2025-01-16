@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+AU+SA:wght@100..400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.content-container{
+   
+    height: 100vh;
+    width: 60%;
+    
+}
+.container{
+    margin-top: 25px;
+    height: 100vh;
+    width: 50%;
+    padding: 15px;
+}
+.heading{
+    text-align: center;
+    margin-bottom: 10px;
+}
+.heading h1{
+    font-weight: 600;
+    font-size: 2.5em;
+    padding: 10px;
+    color: slateblue;
+}
+.heading h3{
+    font-size: 2rem;
+    padding: 9px;
+    color: slateblue;
+}
+
+.addmission{
+    text-align: justify;
+    margin-bottom: 10px;
+}
+.addmission h2{
+    font-size: 1.4rem;
+    font-weight: bold;
+    padding: 9px;
+    font-family: "Montserrat", serif;
+}
+.onward{
+    margin-bottom: 10px;
+}
+.onward p{
+    font-size: 1.1rem;
+    font-weight: 600;
+    letter-spacing: 1px;
+    padding: 9px;
+}
+
+.procedure{
+    margin-bottom: 10px;
+}
+.procedure h3{
+    line-height: 30px;
+}
+.procedure h4{
+    font-size: 1.3rem;
+    padding: 9px;
+    letter-spacing: 1px;
+    font-weight: 700;
+    color: brown;
+}
+
+.procedure h4 span{
+    font-size: 0.8rem;
+    font-family: "Playwrite AU SA", serif;
+    font-weight: 600;
+    padding: 9px;
+    text-align: center;
+    width: 100%;
+}
+
+.detail{
+    margin-bottom: 10px;
+}
+.detail h4{
+    font-size: 1.7rem;
+    letter-spacing: 1.1px;
+    font-weight: bold;
+}
+
+.Admission-Procedure{
+    margin-bottom: 20px;
+    margin-top: 30px;
+    color:slateblue ;
+}
+
+.Admission-Procedure h2{
+    font-weight: 500;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+    line-height: 30px;
+    text-decoration: underline;
+}
+.Admission-Procedure ul{
+    list-style-type: number;
+    padding-left: 35px;
+    margin-top: 20px;
+    color: black;
+}
+.Admission-Procedure ul li{
+    font-size: 1.2rem;
+    line-height: 25px;
+}
+
+
+.fee-structure{
+    margin-top: 70px;
+    margin-bottom: 10px;
+}
+.fee-structure h5{
+    font-size: 1.25rem;
+    color: slateblue;
+    text-decoration: underline;
+    line-height: 25px;
+}
+.table{
+    margin-top: 20px;
+    margin-bottom: 200px;
+}
+
+@media (max-width:840px) {
+    .content-container{
+        width: 80%;
+        margin-right: 10px;
+    }
+}
